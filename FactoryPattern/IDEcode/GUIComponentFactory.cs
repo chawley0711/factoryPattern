@@ -10,5 +10,7 @@ namespace IDEcode
      {
         abstract public TextBox createTextBox();
         abstract public Dropdown createDropdown();
+        abstract public Button createButton();
+        abstract public Label createLabel();
      }
 }
