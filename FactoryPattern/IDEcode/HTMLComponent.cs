@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace IDEcode
 {
-     public class GUIComponentFactory
-     {
-        
-     }
+    class HTMLComponent : GUIComponent
+    {
+
+    }
 }
