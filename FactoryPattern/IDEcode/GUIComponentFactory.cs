@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace IDEcode
 {
-     public class GUIComponentFactory
+     abstract public class GUIComponentFactory
      {
-        
+        abstract public Button createButton();
+        abstract public Label createLabel();
      }
 }
