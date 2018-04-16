@@ -1,0 +1,6 @@
+C:\Users\Tiln\Documents\Visual Studio 2017\Projects\factoryPattern\FactoryPattern\IDEcode\bin\Debug\IDEcode.dll
+C:\Users\Tiln\Documents\Visual Studio 2017\Projects\factoryPattern\FactoryPattern\IDEcode\bin\Debug\IDEcode.pdb
+C:\Users\Tiln\Documents\Visual Studio 2017\Projects\factoryPattern\FactoryPattern\IDEcode\obj\Debug\IDEcode.csprojResolveAssemblyReference.cache
+C:\Users\Tiln\Documents\Visual Studio 2017\Projects\factoryPattern\FactoryPattern\IDEcode\obj\Debug\IDEcode.csproj.CoreCompileInputs.cache
+C:\Users\Tiln\Documents\Visual Studio 2017\Projects\factoryPattern\FactoryPattern\IDEcode\obj\Debug\IDEcode.dll
+C:\Users\Tiln\Documents\Visual Studio 2017\Projects\factoryPattern\FactoryPattern\IDEcode\obj\Debug\IDEcode.pdb
