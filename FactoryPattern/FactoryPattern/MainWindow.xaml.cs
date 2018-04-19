@@ -26,8 +26,10 @@ namespace FactoryPattern
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
+        { 
+            Builder b = new Builder();
+            this.Close();
+            b.Show();
         }
     }
 }

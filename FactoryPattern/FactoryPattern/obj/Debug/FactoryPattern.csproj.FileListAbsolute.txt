@@ -1,0 +1,17 @@
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\bin\Debug\FactoryPattern.exe.config
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\bin\Debug\FactoryPattern.exe
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\bin\Debug\FactoryPattern.pdb
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.csprojResolveAssemblyReference.cache
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\Builder.g.cs
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\MainWindow.g.cs
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\App.g.cs
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern_MarkupCompile.cache
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern_MarkupCompile.lref
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\Builder.baml
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\MainWindow.baml
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.g.resources
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.Properties.Resources.resources
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.csproj.GenerateResource.Cache
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.exe
+C:\Users\Collin\Documents\SoftwareDesignPrinciples\factoryPattern\FactoryPattern\FactoryPattern\obj\Debug\FactoryPattern.pdb
