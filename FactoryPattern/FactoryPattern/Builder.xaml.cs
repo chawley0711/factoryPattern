@@ -22,6 +22,25 @@ namespace FactoryPattern
         public Builder()
         {
             InitializeComponent();
+            List<string> list = new List<string>();
+            list.Add("Button");
+            list.Add("Label");
+            list.Add("Text Box");
+            foreach(string s in list)
+            {
+                drpComponents.Items.Add(s);
+            }
+            
+        }
+
+        private void drpComponents_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

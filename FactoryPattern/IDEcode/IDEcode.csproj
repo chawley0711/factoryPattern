@@ -40,9 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Button.cs" />
     <Compile Include="Dropdown.cs" />
     <Compile Include="GUIComponent.cs" />
     <Compile Include="GUIComponentFactory.cs" />
+    <Compile Include="Label.cs" />
     <Compile Include="LanguageFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TextBox.cs" />
