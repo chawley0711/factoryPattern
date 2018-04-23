@@ -8,23 +8,27 @@
         Title="Builder" Height="350" Width="525">
     <Grid Background="#FFC3D4D3">
         <Label Content="Component" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="14"/>
-        <ComboBox x:Name="drpComponents" HorizontalAlignment="Left" Margin="93,15,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="drpComponents" HorizontalAlignment="Left" Margin="93,15,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="drpComponents_SelectionChanged"/>
         <Label Content="Top" HorizontalAlignment="Left" Margin="56,43,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="14"/>
         <Label Content="Left" HorizontalAlignment="Left" Margin="54,76,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="14"/>
         <Label Content="Width" HorizontalAlignment="Left" Margin="41,109,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="14"/>
         <Label Content="Height" HorizontalAlignment="Left" Margin="38,142,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="14"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="93,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="93,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="93,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="93,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
-        <Button Content="Add" HorizontalAlignment="Left" Margin="41,180,0,0" VerticalAlignment="Top" Width="102" FontFamily="Dubai Medium" FontSize="14"/>
-        <Button Content="Remove" HorizontalAlignment="Left" Margin="41,222,0,0" VerticalAlignment="Top" Width="102" FontFamily="Dubai Medium" FontSize="14" Click="Button_Click"/>
+        <TextBox x:Name="txtTop" HorizontalAlignment="Left" Height="23" Margin="93,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="txtLeft" HorizontalAlignment="Left" Height="23" Margin="93,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="txtWidth" HorizontalAlignment="Left" Height="23" Margin="93,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="txtHeight" HorizontalAlignment="Left" Height="23" Margin="93,146,0,152.143" TextWrapping="Wrap" Width="50"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="41,252,0,0" VerticalAlignment="Top" Width="102" FontFamily="Dubai Medium" FontSize="14" Click="Add_Click"/>
+        <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="41,284,0,0" VerticalAlignment="Top" Width="102" FontFamily="Dubai Medium" FontSize="14" Click="Remove_Click"/>
         <ListView HorizontalAlignment="Left" Height="296" Margin="247,15,0,0" VerticalAlignment="Top" Width="262">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn/>
+                    <GridViewColumn />
                 </GridView>
             </ListView.View>
         </ListView>
+        <Label Content="Content" HorizontalAlignment="Left" Margin="31,175,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="14"/>
+        <TextBox x:Name="txtContent" HorizontalAlignment="Left" Height="23" Margin="93,180,0,118.143" TextWrapping="Wrap" Width="50"/>
+        <Label Content="Font Size" HorizontalAlignment="Left" Margin="23,208,0,0" VerticalAlignment="Top" FontFamily="Dubai Medium" FontSize="14" Width="64"/>
+        <TextBox x:Name="txtFontsize" HorizontalAlignment="Left" Height="23" Margin="93,214,0,84.143" TextWrapping="Wrap" Width="50"/>
     </Grid>
 </Window>

@@ -33,12 +33,28 @@ namespace FactoryPattern
             
         }
 
-        private void drpComponents_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+            var top = txtTop.Text;
+            var left = txtLeft.Text;
+            var width = txtWidth.Text;
+            var height = txtHeight.Text;
+            var content = txtContent.Text;
+            var fontsize = txtFontsize.Text;
+            var type = drpComponents.SelectedItem;
+            Console.WriteLine(type + ", " + top + ", " + left + ", " + width + ", " + height + ", " + content + ", " + fontsize);
+        }
+
+        private void Remove_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void ComponentsChanged(string whichFunction, List<string> contents)
         {
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void drpComponents_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
